@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		8E9AB89A251133B4004C54FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB899251133B4004C54FA /* AppDelegate.swift */; };
 		8E9AB89C251133B4004C54FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB89B251133B4004C54FA /* SceneDelegate.swift */; };
-		8E9AB89E251133B4004C54FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB89D251133B4004C54FA /* ViewController.swift */; };
+		8E9AB89E251133B4004C54FA /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB89D251133B4004C54FA /* FiltersViewController.swift */; };
 		8E9AB8A1251133B4004C54FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AB89F251133B4004C54FA /* Main.storyboard */; };
 		8E9AB8A3251133B6004C54FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AB8A2251133B6004C54FA /* Assets.xcassets */; };
 		8E9AB8A6251133B6004C54FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9AB8A4251133B6004C54FA /* LaunchScreen.storyboard */; };
+		8E9AB8B025113A22004C54FA /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB8AF25113A22004C54FA /* Drink.swift */; };
+		8E9AB8B225113AAA004C54FA /* DrinkCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB8B125113AAA004C54FA /* DrinkCategories.swift */; };
+		8E9AB8B425114DCD004C54FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB8B325114DCD004C54FA /* NetworkManager.swift */; };
+		8E9AB8B6251153AF004C54FA /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB8B5251153AF004C54FA /* DrinksViewController.swift */; };
+		8E9AB8B825115FEA004C54FA /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9AB8B725115FEA004C54FA /* DrinkTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8E9AB896251133B4004C54FA /* CocktailsLover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailsLover.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9AB899251133B4004C54FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E9AB89B251133B4004C54FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8E9AB89D251133B4004C54FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E9AB89D251133B4004C54FA /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
 		8E9AB8A0251133B4004C54FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8E9AB8A2251133B6004C54FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E9AB8A5251133B6004C54FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E9AB8A7251133B6004C54FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9AB8AF25113A22004C54FA /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		8E9AB8B125113AAA004C54FA /* DrinkCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCategories.swift; sourceTree = "<group>"; };
+		8E9AB8B325114DCD004C54FA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8E9AB8B5251153AF004C54FA /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		8E9AB8B725115FEA004C54FA /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,36 @@
 		8E9AB898251133B4004C54FA /* CocktailsLover */ = {
 			isa = PBXGroup;
 			children = (
-				8E9AB899251133B4004C54FA /* AppDelegate.swift */,
-				8E9AB89B251133B4004C54FA /* SceneDelegate.swift */,
-				8E9AB89D251133B4004C54FA /* ViewController.swift */,
 				8E9AB89F251133B4004C54FA /* Main.storyboard */,
+				8E9AB8B5251153AF004C54FA /* DrinksViewController.swift */,
+				8E9AB89D251133B4004C54FA /* FiltersViewController.swift */,
+				8E9AB8B725115FEA004C54FA /* DrinkTableViewCell.swift */,
+				8E9AB8B325114DCD004C54FA /* NetworkManager.swift */,
+				8E9AB8AE25113A0C004C54FA /* Models */,
+				8E9AB8AD251134E5004C54FA /* Stuff */,
 				8E9AB8A2251133B6004C54FA /* Assets.xcassets */,
-				8E9AB8A4251133B6004C54FA /* LaunchScreen.storyboard */,
 				8E9AB8A7251133B6004C54FA /* Info.plist */,
 			);
 			path = CocktailsLover;
+			sourceTree = "<group>";
+		};
+		8E9AB8AD251134E5004C54FA /* Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AB899251133B4004C54FA /* AppDelegate.swift */,
+				8E9AB89B251133B4004C54FA /* SceneDelegate.swift */,
+				8E9AB8A4251133B6004C54FA /* LaunchScreen.storyboard */,
+			);
+			path = Stuff;
+			sourceTree = "<group>";
+		};
+		8E9AB8AE25113A0C004C54FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E9AB8AF25113A22004C54FA /* Drink.swift */,
+				8E9AB8B125113AAA004C54FA /* DrinkCategories.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9AB89E251133B4004C54FA /* ViewController.swift in Sources */,
+				8E9AB8B6251153AF004C54FA /* DrinksViewController.swift in Sources */,
+				8E9AB8B425114DCD004C54FA /* NetworkManager.swift in Sources */,
+				8E9AB89E251133B4004C54FA /* FiltersViewController.swift in Sources */,
 				8E9AB89A251133B4004C54FA /* AppDelegate.swift in Sources */,
 				8E9AB89C251133B4004C54FA /* SceneDelegate.swift in Sources */,
+				8E9AB8B025113A22004C54FA /* Drink.swift in Sources */,
+				8E9AB8B825115FEA004C54FA /* DrinkTableViewCell.swift in Sources */,
+				8E9AB8B225113AAA004C54FA /* DrinkCategories.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,13 +252,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -270,12 +307,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -293,7 +331,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = amusel.CocktailsLover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -311,7 +349,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = amusel.CocktailsLover;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
